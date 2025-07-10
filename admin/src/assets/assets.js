@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://cravio-backend.onrender.com'
+export const url = 'https://cravio-the-food-delivery-app.onrender.com'
