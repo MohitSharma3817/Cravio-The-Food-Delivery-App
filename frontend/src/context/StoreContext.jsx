@@ -6,7 +6,7 @@ export const StoreContext=createContext(null)
 const StoreContextProvider=(props)=>{
 
     const [cartItems,setCartItems] = useState({});
-    const url="http://localhost:4000"; // Change this to your backend URL if needed
+    const url="https://cravio-the-food-delivery-app.onrender.com"; // Change this to your backend URL if needed
     const [token,setToken]=useState("")
 
     const [food_list,setFoodList] = useState([]);
